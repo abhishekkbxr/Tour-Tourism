@@ -1,0 +1,114 @@
+@media only screen and (max-width:1150px){
+    .nav-list{
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+        transition: all 0.3s ease-out;
+        height: 500px;
+    }
+    .rtNav{
+        text-align: center;
+    }
+    .rtNav input{
+        flex-direction: column;
+        max-width: 100px;
+        align-items: center;
+    }
+    .burger{
+        display: block;
+    }
+    .main-box{
+        flex-direction: column-reverse;
+    }
+    .secondhalf img{
+        max-width: 200%;
+        margin-right: 130px;
+    }
+    
+    
+    .h-navResp{
+       height: 72px;
+
+    }
+   .v-classResp{
+       opacity: 0;
+   }
+   .main-box{
+       flex-direction: column-reverse;
+       max-width: 100%;
+       
+    }
+    .text-big{
+        margin-bottom: 10px;
+        text-align: center;
+
+    }
+    .text-small{
+        margin-bottom: 10px;
+        text-align: center;
+
+    }
+    .buttons{
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .secondhalf{
+        margin: 40px ;
+        max-width: 33%;
+        max-height: 33%;
+       text-align: center;
+    }
+    .section{
+        flex-direction: column-reverse;
+        text-align: left;
+    }
+    .text-big{
+        font-size: 3rem;
+        font-style: italic;
+    }
+    .both{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    .bothlft{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    .discription{
+        width: 40%;
+        height: 30%;
+
+    }
+     .discriptionlft p{ 
+        width: 40%;
+        height: 20%;
+        margin-left: 0%;
+        margin-right: 100%;
+        text-align: center;
+        justify-content: center;
+    } 
+    
+
+}
+@media only screen and (max-width:600px){
+    .card{
+        max-width: 300px;
+    }
+    .discription{
+        width: 40%;
+        height: 30%;
+
+    }
+    .discription{
+        width: 40%;
+        height: 150;
+    }
+    
+
+
+}

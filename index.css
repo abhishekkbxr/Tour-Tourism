@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+*{
+   clear: auto;
+    padding:0%;
+    margin:0%;
+    font-family: 'Ubuntu', sans-serif;
+   
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    height: 6em;
+    
+    
+}
+
+.logo{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.logo img{
+    border-radius: 15px;
+    width: 30%;
+    border: 2px solid rgb(250, 246, 246);
+
+}
+
+.nav-list{
+    
+   display:flex;
+   width: 70%;
+ 
+}
+
+
+.nav-list li{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    
+   
+}
+
+.nav-list li a{ 
+    text-decoration: none;
+    padding: 20px;
+    font-size: 28px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+
+    
+}
+
+.nav-list li a:hover{
+    color: aqua; 
+    
+}
+
+.rtNav{
+   
+    text-align: right;
+    width: 30%;
+}
+
+.rtNav input{
+  padding: 7px;
+  font-size: 18px;
+  border: 3px solid black;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 15px;
+
+}
+
+.line{
+    width: 43px;
+    height: 4px;
+    background-color: white;
+    margin: 8px 3px;
+}
+
+.btn{
+    padding: 10px;
+    border:3px solid white ;
+    margin-right: 30px;
+    border-radius: 9px;
+    color: white;
+    font-size: 14px; 
+    background: none;
+    color: white;
+}
+
+.btn:hover{
+    color: cyan;
+}
+
+.background{
+    background: rgba(34, 17, 17, 0.7) url("sea.jpg");
+    background-size: cover;
+    background-blend-mode:hue;
+}
+
+.firstSection{
+    height: 90vh;
+   
+}
+
+.main-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 65%;
+    margin: auto;
+  
+}
+
+.firsthalf{
+    width: 80%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+
+    margin-bottom: 80px;
+
+
+}
+
+.secondhalf{
+    width: 30%;
+    display: flex;
+    margin-left: 40px;
+    margin-top: 100px;
+
+}
+
+.secondhalf img{
+    width: 25em;
+    height: 20em;
+    margin-left: 30px ;
+    
+    border: 2px solid white;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+.btnf{
+   
+    display: inline-flexbox;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 16px;
+    color: white;
+    border: 3px solid white;
+    font-size: 15px;
+    background:none
+    
+ 
+}
+
+.btnf:hover{
+    color: rgb(18, 235, 235);
+
+}
+
+.section{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 98%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    
+
+}
+
+.sec-Left{
+   flex-direction: row-reverse;
+
+}
+
+.para{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 20px;
+}
+
+.para h1 p{
+    font-size: 2em;
+}
+
+.thumbnail img{
+    border-radius: 18px;
+    width: 240px;
+    border: 3px solid rgb(138, 21, 21);
+
+}
+
+.contact{
+    height: 40vh;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(226, 228, 228);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    font-size: 10px;
+    max-width: 500px;
+    margin: auto;
+    
+}
+
+.form input{
+    padding: 10px;
+    margin: 5px 5px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.submit{
+    padding: 10px;
+    margin: 5px 5px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-size: 20px;
+    color:black;
+    background: none;
+    background-color: rgb(192, 245, 245);
+}
+
+.submit:hover{
+    color: rgb(167, 128, 240);
+}
+
+.heading{
+    font-size: 40px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    background-color: rgb(227, 248, 248);
+}
+
+.info{
+    margin-bottom: 23px;
+}
+
+.footer a{
+   padding: 5px;
+    text-decoration: none;
+    color: rgb(102, 93, 93);
+
+
+}
+
+.footer a:hover{
+    color: rgb(100, 27, 27);
+}
+
+.last{
+    text-align: center;
+    justify-content: center;
+    color: rgb(99, 38, 38);
+}
+
+.text-big{
+    font-size: 8rem;
+    font-style: italic;
+}
+
+.explor{
+    max-width: 90%;
+    justify-content: center;
+    align-items: center;
+   margin-top: 10em;
+   margin-left: 5%;
+   padding: 0px 20px;
+   
+}
+
+.both{
+    display: flex;
+}
+
+.bothlft{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.figure{
+    max-width: 50%;
+}
+
+.down{
+    background-color: rgb(226, 218, 191);
+}
+
+.card{
+    width: 30em;
+    display: flex;
+}
+.discription{ 
+ font-weight: 4px;
+    justify-content: center; 
+    margin-left: 6em;
+    padding-top: 1.8em;
+    font-weight: 4px;
+    font-size: 1.5em;
+    margin-right: 3em
+}
+.discriptionlft{ 
+    font-weight: 4px;
+       justify-content: center; 
+       margin-left: 3em;
+       padding-top: 2.5em;
+       font-weight: 4px;
+       font-size: 1.5em;
+       margin-right: 6em
+}
+.readMore{
+    font-weight: bold;
+    padding: 0.2em 0.7em;
+    border-radius: 20px;
+    background-color: rgb(226, 52, 52);
+    color: white;
+}
+#service{
+    padding: 5em;
+}
+#about{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-right:20px ;
+
+}
+.travel{
+    padding: 5em;
+}
+.fab{
+    
+   
+    font-size: 100px;
+}
+.fas{
+  font-size:100px ;
+
+}
